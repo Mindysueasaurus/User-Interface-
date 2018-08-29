@@ -48,8 +48,9 @@ table {
 }
 
 /* Set every element's box-sizing to border-box */
-* {
-    box-sizing: border-box;
+* {	
+	box-sizing: border-box;
+	
 }
 
 html, body {
@@ -64,3 +65,95 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.nav-bar{
+	width:100%;
+	padding: 20px;
+	border: 3px solid red;
+}
+header{
+	width: 800px;
+	margin: 0 auto;
+	border: 3px solid red;
+	/* position: relative; */
+}
+header .logo{
+	/* margin-left: 25px; */
+
+	
+}
+header .main-nav a{
+	text-decoration: none;
+	color: lightgray;
+	font-size: 16px;
+	margin: 0 15px;
+}
+.container{
+	width: 800px;
+	/* padding: 10px; */
+	margin: 0 auto;
+	padding-top: 70px;
+	border: 3px black solid;
+}
+.hero .hero-text{
+	width: 300px;
+	height: auto;
+}
+.hero h1{
+	
+	font-size: 74px;
+	text-align: center;
+
+}
+/* top-content section*/
+.top-content .one-half{
+	width: 350px;
+	display: inline-block;
+	margin: 20px 0px;
+	padding-left: 20px;
+}
+
+
+
+.middle-img{
+	margin-bottom: 30px;
+	width: 800px;
+	height: auto;
+}
+
+/*bottom-content section*/
+
+
+.bottom-content .one-third{
+	width: 260px;
+	display: inline-block;
+	margin-bottom: 30px;	
+}
+
+.bottom-content .one-third p{
+	font-size: 14px;
+}
+
+/*contact section*/
+.contact {
+	border-top: 1px solid black;
+}
+.contact h2{
+	margin-top: 30px;
+}
+.contact address{
+	width: 200px;
+}
+.contact address, p{
+	margin-bottom: 30px;
+}
+
+
+/*footer section*/
+footer{
+	margin: 20px;
+}
+footer p{
+	text-align: center;
+	font-size: 12px;
+}
